@@ -5,6 +5,7 @@ A collection of exercises to strengthen foundational web development skills.
 This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
 
 ✅ Semantic HTML
+
 ✅ CSS styling techniques
 ✅ Responsive design exploration
 
@@ -15,16 +16,16 @@ This repository is a collection of exercises designed to enhance my HTML and CSS
   <td align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="HTML5" width="40" height="40"/> </a></td>
 
   <td align="center" width="96"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" alt="CSS3" width="40" height="40"/> </a></td>
-  
+
 </tr>
 </table>
   
 🎯 Goals
 
-🎨 Improve UI/UX with CSS animations & styling
-🖥️ Build responsive layouts
-📝 Understand semantic HTML
-💡 Experiment with modern CSS techniques
+    🎨 Improve UI/UX with CSS animations & styling
+    🖥️ Build responsive layouts
+    📝 Understand semantic HTML
+    💡 Experiment with modern CSS techniques
 
 ✨ Animations & Effects
 
