@@ -10,25 +10,14 @@ This repository is a collection of exercises designed to enhance my HTML and CSS
 
 🔥 Tech Stack & Tools
 
-<p align="center">
+<table>
+<tr>
+  <td align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="HTML5" width="40" height="40"/> </a></td>
 
-<a href="https://www.java.com" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Java-Light.svg" alt="Java" width="60" height="60"/> </a>
-
-<a href="https://www.python.org" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Python-Light.svg" alt="Python" width="60" height="60"/> </a>
-
-<a href="https://nodejs.org" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/NodeJS-Light.svg" alt="Node.js" width="60" height="60"/> </a>
-
-<a href="https://expressjs.com" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/ExpressJS-Light.svg" alt="Express.js" width="60" height="60"/> </a>
-
-<a href="https://react.dev" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Light.svg" alt="React" width="60" height="60"/> </a>
-
-<a href="https://www.mysql.com" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Light.svg" alt="MySQL" width="60" height="60"/> </a>
-
-<a href="https://www.mongodb.com" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/MongoDB.svg" alt="MongoDB" width="60" height="60"/> </a>
-
-<a href="https://tailwindcss.com" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Light.svg" alt="Tailwind CSS" width="60" height="60"/> </a>
-
-  </p>
+  <td align="center" width="96"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" alt="CSS3" width="40" height="40"/> </a></td>
+  
+</tr>
+</table>
   
 🎯 Goals
 
