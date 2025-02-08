@@ -2,7 +2,8 @@
 A collection of exercises to strengthen foundational web development skills.
 
 🌟 About This Repository
-This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
+
+    This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
 
     ✅ Semantic HTML
     ✅ CSS styling techniques
