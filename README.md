@@ -4,6 +4,8 @@
 
 🌟 About This Repository
 
+<p align="center"> <img src="https://media.giphy.com/media/xT8qBuhwqvDTCQzntm/giphy.gif" width="200"> </p>
+
     This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
 
     ✅ Semantic HTML
@@ -36,11 +38,10 @@
     2️⃣ Open .html files in your browser
     3️⃣ Modify .css files to experiment with styles
 
-    📬 Contact & Connect
-    👤 GitHub Profile
-    💼 Portfolio Website
-    📧 Email: ushanloshitha@gmail.com
+📬 Contact & Connect
 
-<p align="center"> <img src="https://media.giphy.com/media/xT8qBuhwqvDTCQzntm/giphy.gif" width="200"> </p>
+      👤 GitHub Profile:
+      💼 Portfolio Website: Pending
+      📧 Email: ushanloshitha@gmail.com
 
 🚀 Keep Learning & Happy Coding! 👨‍💻✨
