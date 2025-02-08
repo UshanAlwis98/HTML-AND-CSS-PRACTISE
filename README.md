@@ -1,5 +1,6 @@
 🚀 HTML & CSS Practise
-A collection of exercises to strengthen foundational web development skills.
+
+    A collection of exercises to strengthen foundational web development skills.
 
 🌟 About This Repository
 
