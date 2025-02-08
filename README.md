@@ -1,10 +1,10 @@
+<p align="center"> <img src="https://media.giphy.com/media/xT8qBuhwqvDTCQzntm/giphy.gif" width="200"> </p>
+
 🚀 HTML & CSS Practise
 
     A collection of exercises to strengthen foundational web development skills.
 
 🌟 About This Repository
-
-<p align="center"> <img src="https://media.giphy.com/media/xT8qBuhwqvDTCQzntm/giphy.gif" width="200"> </p>
 
     This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
 
