@@ -13,9 +13,9 @@
 
     This repository is a collection of exercises designed to enhance my HTML and CSS skills. Each exercise focuses on:
 
-    ✅ Semantic HTML
-    ✅ CSS styling techniques
-    ✅ Responsive design exploration
+      ✅ Semantic HTML
+      ✅ CSS styling techniques
+      ✅ Responsive design exploration
 
 🔥 Tech Stack & Tools
 
@@ -30,16 +30,16 @@
   
 🎯 Goals
 
-    🎨 Improve UI/UX with CSS animations & styling
-    🖥️ Build responsive layouts
-    📝 Understand semantic HTML
-    💡 Experiment with modern CSS techniques
+      🎨 Improve UI/UX with CSS animations & styling
+      🖥️ Build responsive layouts
+      📝 Understand semantic HTML
+      💡 Experiment with modern CSS techniques
 
 📌 How to Use?
 
-    1️⃣ Clone the repository
-    2️⃣ Open .html files in your browser
-    3️⃣ Modify .css files to experiment with styles
+      1️⃣ Clone the repository
+      2️⃣ Open .html files in your browser
+      3️⃣ Modify .css files to experiment with styles
 
 📬 Contact & Connect
 
