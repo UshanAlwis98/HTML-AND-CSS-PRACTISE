@@ -28,7 +28,7 @@
 </tr>
 </table>
   
-🎯 Goals
+🎯 **_Goals_**
 
       🎨 Improve UI/UX with CSS animations & styling
       🖥️ Build responsive layouts
