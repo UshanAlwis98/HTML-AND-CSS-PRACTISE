@@ -19,11 +19,11 @@
 
 🔥 Tech Stack & Tools
 
-<table border="10px" >
+<table border="6px" bgcolor="green" >
 <tr>
-  <td align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="HTML5" width="40" height="40"/> </a></td>
+  <th align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="HTML5" width="40" height="40"/> </a></th>
 
-  <td align="center" width="96"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" alt="CSS3" width="40" height="40"/> </a></td>
+  <th align="center" width="96"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" alt="CSS3" width="40" height="40"/> </a></th>
 
 </tr>
 </table>
