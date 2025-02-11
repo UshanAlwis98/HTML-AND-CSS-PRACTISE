@@ -49,6 +49,6 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=36&duration=6200&pause=1400&width=580&height=60&lines=🚀+KEEP LEARNING+%26+HAPPY+CODING+👨‍💻✨" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=36&duration=6200&pause=1400&width=580&height=60&lines=🚀HAPPY+CODING+👨‍💻✨" alt="Typing SVG" />
   </a>
 </p>
