@@ -29,6 +29,7 @@
 </table>
   
 🎯 **_Goals_**
+🎯 <img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=500&size=28&duration=6200&pause=1400&color=F75C7E&width=120&height=30&lines=Goals" alt="Goals"/>
 
       🎨 Improve UI/UX with CSS animations & styling
       🖥️ Build responsive layouts
