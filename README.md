@@ -35,7 +35,7 @@
       📝 Understand semantic HTML
       💡 Experiment with modern CSS techniques
 
-📌 **_How to Use?_**
+📌 **_How to Use ?_**
 
       1️⃣ Clone the repository
       2️⃣ Open .html files in your browser
@@ -48,3 +48,5 @@
       📧 Email: ushanloshitha@gmail.com
 
 🚀 Keep Learning & Happy Coding! 👨‍💻✨
+
+🎯 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bahnschrift&duration=8000&pause=1000&color=FF079E&background=1339B100&width=150&height=30&lines=Goals)](https://git.io/typing-svg)
