@@ -47,6 +47,8 @@
       💼 Portfolio Website: Pending
       📧 Email: ushanloshitha@gmail.com
 
-🚀 Keep Learning & Happy Coding! 👨‍💻✨
-
-🎯 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bahnschrift&duration=8000&pause=1000&color=FF079E&background=1339B100&width=150&height=30&lines=Goals)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=36&duration=6200&pause=1400&width=580&height=60&lines=🚀+KEEP LEARNING+%26+HAPPY+CODING+👨‍💻✨" alt="Typing SVG" />
+  </a>
+</p>
