@@ -19,7 +19,7 @@
 
 🔥 Tech Stack & Tools
 
-<table border="6px" bgcolor="green" >
+<table border="6px" width="75%" >
 <tr>
   <th align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="HTML5" width="40" height="40"/> </a></th>
 
