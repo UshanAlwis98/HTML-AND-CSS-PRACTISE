@@ -8,7 +8,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJzcnh1cXRwMmM1cGdtMmRnMzN5MGxjamE5MGl3NnduaW5peWp0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif" width="300">
 </p>
 
-🌟 About This Repository
+🌟 **_About This Repository_**
 
     This repository is a collection of exercises designed to enhance my HTML and CSS skills.
     Each exercise focuses on:
@@ -17,7 +17,7 @@
       ✅ CSS styling techniques
       ✅ Responsive design exploration
 
-🔥 Tech Stack & Tools
+🔥 **_Tech Stack & Tools_**
 
 <table border="6px" width="75%" >
 <tr>
@@ -35,13 +35,13 @@
       📝 Understand semantic HTML
       💡 Experiment with modern CSS techniques
 
-📌 **How to Use?**
+📌 **_How to Use?_**
 
       1️⃣ Clone the repository
       2️⃣ Open .html files in your browser
       3️⃣ Modify .css files to experiment with styles
 
-📬 Contact & Connect
+📬 **_Contact & Connect_**
 
       👤 GitHub Profile:
       💼 Portfolio Website: Pending
