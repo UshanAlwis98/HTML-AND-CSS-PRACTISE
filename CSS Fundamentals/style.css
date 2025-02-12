@@ -1,3 +1,7 @@
 h1 {
   color: green;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-style: italic;
 }
