@@ -38,10 +38,31 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
-  font-style: italic;
+.releated-authors {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
 }
