@@ -105,3 +105,39 @@ li:last-child {
 li:nth-child(2) {
   color: rgb(170, 197, 47);
 }
+
+/* 
+Common Misconspection this will not work 
+article p:first-child {
+  font-weight: bold;
+  color: #17e028;
+} */
+
+/* Styling HyperLinks */
+
+a {
+  color: red;
+}
+
+a:link {
+  color: orangered;
+  text-decoration: none;
+}
+
+/* a:visited {
+  color: blueviolet;
+  text-decoration: none;
+} */
+
+a:hover {
+  color: #17e028;
+  font-weight: bold;
+  text-decoration: underline dotted #17e028;
+}
+
+a:active {
+  background-color: black;
+  font-size: italic;
+}
+
+/* To Memorize LVHA */
