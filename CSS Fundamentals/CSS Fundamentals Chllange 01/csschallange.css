@@ -1,0 +1,28 @@
+body {
+  border: 3px solid black;
+}
+
+#main_heading {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: gray;
+  text-transform: uppercase;
+}
+
+#cart_btn {
+  text-decoration-color: white;
+  color: aqua;
+}
+
+#ship {
+  text-transform: uppercase;
+  color: rgb(136, 135, 133);
+  font-weight: bold;
+  font-size: small;
+}
+
+#price {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
