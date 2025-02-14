@@ -2,17 +2,15 @@ body {
   border: 3px solid black;
 }
 
+/* Heading Styles */
 #main_heading {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: gray;
+  background-color: #f7f7f7;
   text-transform: uppercase;
 }
 
-#cart_btn {
-  text-decoration-color: white;
-  color: aqua;
-}
+/* Product Details */
 
 #ship {
   text-transform: uppercase;
@@ -25,4 +23,36 @@ body {
   font-weight: bold;
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Link Color and Decoration LVHA */
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* Product Specs */
+
+.productspeclist {
+  list-style: square;
+}
+
+/* Add to cart Button Styles */
+#cart_btn {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cart_btn:hover {
+  background-color: white;
+  border: none;
+  color: black;
 }
