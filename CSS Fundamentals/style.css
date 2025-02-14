@@ -110,6 +110,7 @@ article {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 aside {
@@ -118,6 +119,7 @@ aside {
   padding: 50px 0; /*Top and Bottom Padding is 50px and Left and Right Padding is Zero*/
   background-color: #f7f7f7;
   border: 5px solid #1098ad;
+  width: 500px;
 
   /* border-top: 5px solid #1098ad; */
   /* border-bottom: 5px solid #1098ad; */
