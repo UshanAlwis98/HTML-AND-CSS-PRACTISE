@@ -1,6 +1,6 @@
-body {
+/* body {
   border: 3px solid black;
-}
+} */
 
 /* Heading Styles */
 #main_heading {
@@ -44,15 +44,25 @@ a:active {
 
 /* Add to cart Button Styles */
 #cart_btn {
-  background-color: black;
-  border: none;
-  color: white;
+  /* background-color: black; */
+  border-top: 4px solid black;
+  color: black;
   font-size: 20px;
   cursor: pointer;
+  width: 825px;
+  height: 50px;
+  text-transform: uppercase;
 }
 
 #cart_btn:hover {
-  background-color: white;
+  background-color: black;
   border: none;
-  color: black;
+  color: white;
+}
+
+.container {
+  margin: 100px auto;
+  width: 825px;
+  height: auto;
+  border: 3px solid black;
 }
