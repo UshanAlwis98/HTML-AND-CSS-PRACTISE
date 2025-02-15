@@ -11,6 +11,13 @@ body {
   border-top: 10px solid #17e028;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 h2,
 h3,
 h4,
@@ -201,3 +208,8 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+.post-img {
+  width: 100%; /*If Change the Size of Parent Container image will Adapt to it*/
+  height: auto;
+}
