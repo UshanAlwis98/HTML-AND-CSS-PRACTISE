@@ -42,9 +42,9 @@ h3 {
 
 h1 {
   font-size: 26px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
   text-transform: uppercase;
-  font-style: normal;
+  font-style: italic;
 }
 
 h2 {
@@ -238,4 +238,33 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+/* p::first-line {
+  color: red;
+} */
+
+h3 + p::first-line {
+  color: red;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  color: black;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
