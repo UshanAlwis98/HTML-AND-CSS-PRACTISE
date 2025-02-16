@@ -44,9 +44,9 @@ a:active {
 
 /* Add to cart Button Styles */
 #cart_btn {
-  /* background-color: black; */
+  background-color: black;
+  color: azure;
   border-top: 4px solid black;
-  color: black;
   font-size: 20px;
   cursor: pointer;
   width: 825px;
@@ -55,9 +55,9 @@ a:active {
 }
 
 #cart_btn:hover {
-  background-color: black;
-  border: none;
-  color: white;
+  background-color: white;
+  border-top: 4px solid black;
+  color: black;
 }
 
 .container {
