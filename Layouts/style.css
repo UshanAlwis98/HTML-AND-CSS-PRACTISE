@@ -265,3 +265,12 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* Layouts Started */
+
+.author-img {
+  float: left;
+}
+
+.author {
+}
