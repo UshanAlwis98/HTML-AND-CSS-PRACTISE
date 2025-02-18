@@ -35,13 +35,31 @@
         background-color: #ddd;
         font-size: 34px;
         margin: 40px;
+        gap: 30px;
 
         /* FLEXBOX */
 
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
       }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+
+      .el--5 {
+        align-self: stretch;
+        order: 1;
+      }
+
+      .el--6 {
+        order: -1;
+      }
+
+      /* .el {
+        margin-right: 30px;
+      } */
     </style>
   </head>
   <body>
