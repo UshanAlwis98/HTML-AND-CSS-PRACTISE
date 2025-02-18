@@ -1,139 +1,161 @@
-/* body {
-  border: 3px solid black;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Heading Styles */
-#main_heading {
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product-img {
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.product-title {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 15px;
+  grid-column: 1 / -1;
+}
+
+/* PRODUCT INFORMATION */
+.product-info {
+  /*  (825 - 8 - 250 - 80) / 2  */
+  /*   width: 243px; */
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
   text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
 }
 
-/* Product Details */
-
-#ship {
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
   text-transform: uppercase;
-  color: rgb(136, 135, 133);
   font-weight: bold;
-  font-size: small;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+
+  /*   width: 40px;
+  text-align: center; */
 }
 
-#price {
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.product-description {
+  margin-bottom: 10px;
 }
 
-/* Link Color and Decoration LVHA */
-a:link,
-a:visited {
+.more-info:link,
+.more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
-a:hover,
-a:active {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
 
-/* Product Specs */
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
 
-.productspeclist {
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
+
+/* PRODUCT DETAILS */
+.product-details {
+  /*   width: 243px; */
+  margin-top: 20px;
+  flex: 1;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
   list-style: square;
+  margin-left: 20px;
 }
 
-/* Add to cart Button Styles */
-#cart_btn {
-  background-color: black;
-  color: azure;
-  border-top: 4px solid black;
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
   font-size: 20px;
+  text-transform: uppercase;
   cursor: pointer;
-  width: 825px;
-  height: 50px;
-  text-transform: uppercase;
-}
-
-#cart_btn:hover {
-  background-color: white;
+  padding: 15px;
+  width: 100%;
   border-top: 4px solid black;
-  color: black;
+  grid-column: 1 / -1;
 }
 
-.container {
-  margin: 100px auto;
-  width: 825px;
-  height: auto;
-  border: 3px solid black;
-  position: relative;
-}
-
-.sale_label {
-  text-transform: uppercase;
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  background-color: red;
-  color: white;
-  border: 1px solid;
-  display: inline-block;
-  font-weight: bolder;
-  padding: 6px;
-  position: absolute;
-  top: -34px;
-  left: -35px;
-}
-
-.shoe_color li:first-child {
-  background-color: rgb(0, 0, 0);
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 15px;
-  position: absolute;
-  left: 0;
-}
-
-.shoe_color li:nth-child(2) {
-  background-color: aqua;
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 15px;
-}
-
-.shoe_color li:nth-child(3) {
-  background-color: rgb(27, 207, 21);
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 15px;
-}
-
-.shoe_color li:nth-child(4) {
-  background-color: rgb(224, 126, 14);
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 15px;
-}
-
-.shoe_color li:nth-child(5) {
-  background-color: rgb(138, 15, 219);
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 15px;
-}
-
-.shoe_color li:last-child {
-  background-color: rgb(238, 14, 14);
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  list-style-type: none;
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
 }
