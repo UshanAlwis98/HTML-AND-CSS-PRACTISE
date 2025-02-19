@@ -333,12 +333,15 @@ footer {
   margin-left: 15px;
 }
 
+/* Related Post Settings */
+
 .related-post {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 30px;
 }
+
 .related-link:link {
   font-size: 17px;
   font-weight: bold;
@@ -352,4 +355,24 @@ footer {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1 0 825px;
+  margin-bottom: 0;
+}
+aside {
+  /* DEFAULTS:
+        flex: grow 0;
+        flex-shrink:1;
+        flex-basis:auto; */
+
+  flex: 0 0 300px;
+  align-self: flex-start;
 }
