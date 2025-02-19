@@ -93,3 +93,17 @@
   color: #000;
   background-color: #fff;
 }
+
+.product-img {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+/* FlexBox Coding */
+.container {
+  display: flex;
+}
+
+.row-2 {
+  display: flex;
+}
