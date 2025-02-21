@@ -14,7 +14,7 @@
       <a href="https://ibb.co/Z0JY7m8"><img src="https://i.ibb.co/kty9v18/Converse-img.jpg" alt="Converse-img" border="0"></a>
 </p>
 
-💡**_Key things learn_**
+💡 **_Key things Learn_**
 
         This repository is a collection of exercises designed to enhance my HTML and CSS skills.
         Each exercise focuses on:
