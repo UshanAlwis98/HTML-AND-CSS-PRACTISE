@@ -8,9 +8,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJzcnh1cXRwMmM1cGdtMmRnMzN5MGxjamE5MGl3NnduaW5peWp0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif" width="300">
 </p>
 
-<p align="center">
-🌟 **_About This Repository_**
-</p>
+# 🌟 **About This Repository**
 
 <p align="center">
       <a href="https://ibb.co/Z0JY7m8"><img src="https://i.ibb.co/kty9v18/Converse-img.jpg" alt="Converse-img" border="0"></a>
