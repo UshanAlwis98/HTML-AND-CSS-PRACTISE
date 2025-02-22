@@ -1,0 +1,86 @@
+.el_1 {
+  background-color: blueviolet;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid black;
+  display: grid;
+  font-size: 30px;
+  place-items: center; /* Centers both horizontally and vertically */
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+.el_2 {
+  background-color: orangered;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: grid;
+  font-size: 30px;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_3 {
+  background-color: green;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_4 {
+  background-color: goldenrod;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_5 {
+  background-color: palevioletred;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_6 {
+  background-color: steelblue;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_7 {
+  background-color: yellow;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+.el_8 {
+  background-color: crimson;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+
+.el_9 {
+  background-color: rgb(9, 56, 185);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+}
+
+.main-container {
+  width: 700px;
+  height: 600px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
