@@ -2,14 +2,14 @@
   display: grid;
   width: 100%;
   height: auto;
-  background-color: gray;
+  /* background-color: gray; */
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .project_title {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   width: fit-content;
   height: 100px;
   margin: 20px;
@@ -23,18 +23,30 @@
   display: grid;
   place-items: center; /* Centers both vertically and horizontally */
   border: 5px solid black;
+  border-radius: 10px;
 }
 
 .project_1 {
-  background-color: crimson;
+  /* background-color: crimson; */
   text-transform: uppercase;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   margin: 20px;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
   display: grid;
   text-align: center;
   padding: 10px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.omni-img {
+  width: 375px;
+  height: auto;
+  margin-top: 10px;
+  justify-self: center;
+  display: inline-block;
+  text-align: center;
 }
