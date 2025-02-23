@@ -1,17 +1,16 @@
 .container {
   display: grid;
   width: 100%;
-  height: 800px;
+  height: auto;
   background-color: gray;
-
+  justify-items: center;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 30px;
 }
 
 .project_title {
   background-color: burlywood;
-  width: 80%;
+  width: fit-content;
   height: 100px;
   margin: 20px;
   grid-column: 1 / span 3;
@@ -26,6 +25,16 @@
   border: 5px solid black;
 }
 
-.project_2 {
+.project_1 {
   background-color: crimson;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 20px;
+  width: 400px;
+  height: 200px;
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 3px;
 }
