@@ -50,3 +50,53 @@
   display: inline-block;
   text-align: center;
 }
+
+.project_2 {
+  /* background-color: crimson; */
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.natours-img {
+  width: 350px;
+  height: auto;
+  margin-top: 10px;
+  justify-self: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.project_3 {
+  /* background-color: crimson; */
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.trillo-img {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  justify-self: center;
+  display: inline-block;
+  text-align: center;
+}
