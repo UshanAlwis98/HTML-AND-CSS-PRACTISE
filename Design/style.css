@@ -6,7 +6,10 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
-/* Main Color: #087f5b Grey Color: #343a40*/
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
 
 * {
   margin: 0;
@@ -37,6 +40,7 @@ h2 {
   margin-bottom: 48px;
   font-size: 36px;
   letter-spacing: -0.5px;
+  /* 24 / 30 / 36 */
 }
 
 .grid-3-cols {
@@ -54,10 +58,11 @@ h2 {
   font-weight: 500;
 
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
-btn:active {
+.btn:active {
   background-color: #099268;
 }
 
@@ -65,9 +70,14 @@ btn:active {
   font-size: 18px;
   padding: 16px 32px;
 }
+
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+}
+
+img {
+  border-radius: 12px;
 }
 
 /* ------------------------ */
@@ -89,9 +99,9 @@ header {
 h1 {
   margin-bottom: 32px;
   font-size: 44px;
-  /* 44 / 52 / 62 */
   line-height: 1.1;
   letter-spacing: -1px;
+  /* 44 / 52 / 62 */
 
   /* text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
@@ -110,7 +120,7 @@ img {
 .features-icon {
   stroke: #087f5b;
   width: 32px;
-  height: 32px;
+  heigh: 32px;
   margin-bottom: 24px;
 }
 
@@ -129,6 +139,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -138,15 +149,16 @@ img {
 
 .testimonial-box h2 {
   margin-bottom: 24px;
+  /* 20 / 24 / 30 */
   font-size: 24px;
 }
 
 .testimonial-text {
-  color: #e6fcf5;
   font-style: italic;
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
+  color: ##e6fcf5;
 }
 
 .testimonial-author {
@@ -154,10 +166,16 @@ img {
 }
 
 /* CHAIRS */
-
 .chair {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
 }
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .chair-box {
   padding: 32px;
 }
@@ -192,8 +210,8 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
   align-items: center;
+  font-size: 20px;
 }
 
 footer {
