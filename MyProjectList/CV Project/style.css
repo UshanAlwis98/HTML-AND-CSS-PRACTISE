@@ -1,5 +1,8 @@
-.name-title {
+body {
   font-family: sans-serif;
+}
+
+.name-title {
   text-transform: uppercase;
   text-align: center;
 }
