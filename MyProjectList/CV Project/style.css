@@ -30,10 +30,15 @@ body {
   display: inline-block;
 }
 
-.campus {
+/* .campus {
+  display: inline-block;
+} */
+
+.campus-logo {
+  width: 200px;
   display: inline-block;
 }
 
-.campus-logo {
-  display: inline;
+.ca-logo {
+  width: 75px;
 }
