@@ -21,6 +21,11 @@ body {
   margin: 0 0;
 }
 
+.job-place {
+  display: flex;
+  gap: 650px;
+}
+
 p,
 .profile-summary {
   text-align: justify;
