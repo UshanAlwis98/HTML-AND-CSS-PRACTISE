@@ -18,20 +18,22 @@ body {
   object-fit: cover; /* Ensures the image is properly cropped */
 }
 
-.phone-icon {
-  width: 20px;
-  height: 20px;
-}
-
 .phone-no {
   display: inline-block;
 }
 
-.mail-icon {
-  width: 20px;
-  height: 20px;
-}
-
 .email-address {
   display: inline-block;
+}
+
+.address {
+  display: inline-block;
+}
+
+.campus {
+  display: inline-block;
+}
+
+.campus-logo {
+  display: inline;
 }
