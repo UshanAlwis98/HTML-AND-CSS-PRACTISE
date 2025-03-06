@@ -5,13 +5,38 @@ body {
   display: flex;
 }
 
+.container-right {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container-left {
+  width: 300px;
+  margin-left: 100px;
+}
 .name-title {
   text-transform: uppercase;
+  font-size: 100px;
+  letter-spacing: 20px;
+  margin: 0 0;
+}
+
+p,
+.profile-summary {
+  text-align: justify;
+}
+
+.work-exp-heading,
+.Projects,
+.References {
+  background-color: rgb(241, 233, 159);
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.postion {
-  text-align: center;
+.name-title {
+  text-transform: uppercase;
 }
 
 .profile-photo {
