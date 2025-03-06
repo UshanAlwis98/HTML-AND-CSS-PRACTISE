@@ -21,9 +21,14 @@ body {
   margin: 0 0;
 }
 
-.job-place {
+.job-place-first {
   display: flex;
   gap: 650px;
+}
+
+.job-place-second {
+  display: flex;
+  gap: 575px;
 }
 
 p,
