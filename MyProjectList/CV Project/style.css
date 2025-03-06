@@ -10,3 +10,28 @@ body {
 .postion {
   text-align: center;
 }
+
+.profile-photo {
+  border-radius: 50%;
+  width: 120px; /* Adjust size as needed */
+  height: 120px; /* Should be equal to width */
+  object-fit: cover; /* Ensures the image is properly cropped */
+}
+
+.phone-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.phone-no {
+  display: inline-block;
+}
+
+.mail-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.email-address {
+  display: inline-block;
+}
