@@ -27,6 +27,17 @@ h3 {
   margin: 0 0;
 }
 
+.project-01,
+.project-02,
+.project-03 {
+  /* background-color: bisque;
+  width: fit-content; */
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
 .postion {
   text-align: center;
   margin: 0 0;
