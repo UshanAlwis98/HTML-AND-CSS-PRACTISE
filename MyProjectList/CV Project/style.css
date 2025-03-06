@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
 }
+.container {
+  display: flex;
+}
 
 .name-title {
   text-transform: uppercase;
