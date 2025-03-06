@@ -8,11 +8,13 @@ body {
 .container-right {
   margin: 0 auto;
   width: 1200px;
+  /* border: 5px solid black; */
 }
 
 .container-left {
-  width: 300px;
+  width: 350px;
   margin-left: 100px;
+  /* border: 5px solid black; */
 }
 .name-title {
   text-transform: uppercase;
@@ -21,9 +23,24 @@ body {
   margin: 0 0;
 }
 
+h3 {
+  margin: 0 0;
+}
+
+.postion {
+  text-align: center;
+  margin: 0 0;
+}
+
+.ref-sec {
+  display: flex;
+  gap: 175px;
+}
+
 .job-place-first {
   display: flex;
   gap: 650px;
+  margin: 0 0;
 }
 
 .job-place-second {
