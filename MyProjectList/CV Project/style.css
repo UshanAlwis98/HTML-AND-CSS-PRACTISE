@@ -4,6 +4,7 @@ body {
 }
 .container {
   display: flex;
+  gap: 5px;
 }
 
 .container-right {
@@ -13,7 +14,7 @@ body {
 }
 
 .container-left {
-  width: 350px;
+  flex-basis: 350px;
   margin-left: 100px;
   /* border: 5px solid black; */
 }
