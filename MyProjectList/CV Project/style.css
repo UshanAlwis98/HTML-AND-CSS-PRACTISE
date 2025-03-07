@@ -175,6 +175,12 @@ p,
   margin: 0 0;
 }
 
+.Copyright-message {
+  text-align: center;
+  margin-top: 150px;
+  font-weight: bold;
+}
+
 /* .campus {
   display: inline-block;
 } */
