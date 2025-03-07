@@ -80,19 +80,24 @@ p,
 .contact-section,
 .education-info {
   background-color: rgb(241, 233, 159);
-  text-transform: uppercase;
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
 .name-title {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .profile-photo {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
   border-radius: 50%;
-  width: 120px; /* Adjust size as needed */
-  height: 120px; /* Should be equal to width */
+  text-align: center;
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Should be equal to width */
   object-fit: cover; /* Ensures the image is properly cropped */
 }
 
@@ -103,6 +108,22 @@ p,
 .address-profile {
   margin: 0 0;
   margin-top: 3px;
+}
+
+.github-profile:link,
+.github-profile:visited,
+.linkedin-profile:link,
+.linkedin-profile:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.github-profile:hover,
+.github-profile:active,
+.linkedin-profile:hover,
+.linkedin-profile:active {
+  text-decoration: underline;
+  color: blue;
 }
 
 .contact-section {
