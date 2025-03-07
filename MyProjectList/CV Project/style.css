@@ -27,6 +27,16 @@ h3 {
   margin: 0 0;
 }
 
+.degree_title,
+.professional_qualification_title {
+  font-size: 17px;
+}
+
+.campus,
+.business-level {
+  text-align: center;
+}
+
 .project-01,
 .project-02,
 .project-03 {
@@ -129,7 +139,7 @@ p,
 }
 
 .contact-section {
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin-bottom: 30px;
   border: 2px solid black;
   border-radius: 5px;
@@ -144,11 +154,11 @@ p,
   display: inline-block;
 } */
 
-.campus-logo {
+/* .campus-logo {
   width: 200px;
   display: inline-block;
-}
+} */
 
-.ca-logo {
+/* .ca-logo {
   width: 75px;
-}
+} */
