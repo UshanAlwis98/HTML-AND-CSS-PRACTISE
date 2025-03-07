@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  border: 3px solid black;
 }
 .container {
   display: flex;
@@ -21,6 +22,9 @@ body {
   font-size: 100px;
   letter-spacing: 20px;
   margin: 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-left: 40px;
 }
 
 h3 {
@@ -97,6 +101,17 @@ p,
   text-align: center;
 }
 
+.Technical-skills,
+.academics,
+.soft-skill-section {
+  background-color: rgb(241, 233, 159);
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
 .name-title {
   text-transform: uppercase;
   text-align: center;
@@ -106,6 +121,7 @@ p,
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  margin-top: 25px;
   border-radius: 50%;
   text-align: center;
   width: 200px; /* Adjust size as needed */
@@ -138,7 +154,8 @@ p,
   color: blue;
 }
 
-.contact-section {
+.contact-section,
+.education-info {
   padding: 10px 15px;
   margin-bottom: 30px;
   border: 2px solid black;
@@ -148,6 +165,13 @@ p,
 .contact-heading {
   margin: 0 0;
   margin-bottom: 15px;
+}
+
+.skill-heading,
+.academic-heading,
+.soft-skill-heading {
+  text-align: center;
+  margin: 0 0;
 }
 
 /* .campus {
