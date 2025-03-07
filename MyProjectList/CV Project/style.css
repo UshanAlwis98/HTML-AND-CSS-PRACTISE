@@ -64,30 +64,10 @@ p,
   text-align: justify;
 }
 
-.phone-details {
-  display: flex;
-  gap: 30px;
-  justify-content: flex-start;
-}
-
-.mail-details {
-  display: flex;
-  gap: 30px;
-  justify-content: flex-start;
-}
-
-.linkedin-info {
-  display: flex;
-  gap: 30px;
-  justify-content: flex-start;
-}
-
-.github-info {
-  display: flex;
-  gap: 30px;
-  justify-content: flex-start;
-}
-
+.phone-details,
+.mail-details,
+.linkedin-info,
+.github-info,
 .address-info {
   display: flex;
   gap: 30px;
@@ -116,26 +96,10 @@ p,
   object-fit: cover; /* Ensures the image is properly cropped */
 }
 
-.phone-no {
-  margin: 0 0;
-  margin-top: 3px;
-}
-
-.email-address {
-  margin: 0 0;
-  margin-top: 3px;
-}
-
-.linkedin-profile {
-  margin: 0 0;
-  margin-top: 3px;
-}
-
-.github-profile {
-  margin: 0 0;
-  margin-top: 3px;
-}
-
+.phone-no,
+.email-address,
+.linkedin-profile,
+.github-profile,
 .address-profile {
   margin: 0 0;
   margin-top: 3px;
