@@ -80,7 +80,9 @@ p,
 .contact-section,
 .education-info {
   background-color: rgb(241, 233, 159);
-
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
