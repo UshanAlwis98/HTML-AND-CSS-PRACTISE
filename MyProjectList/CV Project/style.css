@@ -68,7 +68,30 @@ p,
   display: flex;
   gap: 30px;
   justify-content: flex-start;
-  padding-left: 15px;
+}
+
+.mail-details {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.linkedin-info {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.github-info {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.address-info {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
 }
 
 .work-exp-heading,
@@ -99,11 +122,23 @@ p,
 }
 
 .email-address {
-  display: inline-block;
+  margin: 0 0;
+  margin-top: 3px;
 }
 
-.address {
-  display: inline-block;
+.linkedin-profile {
+  margin: 0 0;
+  margin-top: 3px;
+}
+
+.github-profile {
+  margin: 0 0;
+  margin-top: 3px;
+}
+
+.address-profile {
+  margin: 0 0;
+  margin-top: 3px;
 }
 
 /* .campus {
