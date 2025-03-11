@@ -5,7 +5,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>03-Table Component</title>
+    <title>Challanage 01</title>
     <style>
       /*
                   SPACING SYSTEM (px)
@@ -38,7 +38,83 @@
         justify-content: center;
         align-items: center;
       }
+
+      .btn-left {
+        /* background-color: #087f5b; */
+        width: 48px;
+        height: 48px;
+        border: 1px solid #087f5b;
+        padding: 10px 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+      }
+
+      .btn-icon-left {
+        color: #087f5b;
+      }
+
+      .link-set {
+        display: flex;
+        gap: 30px;
+      }
+
+      .link-set:hover,
+      .link-set:active {
+      }
+
+      .link-1:hover,
+      .link-1:active {
+        background-color: #087f5b;
+        color: #fff;
+        border: 1px solid #087f5b;
+        border-radius: 100%;
+      }
+      .link-1,
+      .link-2,
+      .link-3,
+      .link-4,
+      .link-5,
+      .link-6 {
+        /* border: 1px solid #087f5b; */
+        border-radius: 50%;
+        width: 32px; /* Fixed width */
+        height: 32px; /* Fixed height */
+        padding: 5px 5px;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+      }
     </style>
   </head>
-  <body></body>
+  <body>
+    <button class="btn-left">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="btn-icon-left"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5 8.25 12l7.5-7.5"
+        />
+      </svg>
+    </button>
+
+    <div class="link-set">
+      <a href="#" class="link-1">1</a>
+      <a href="#" class="link-2">2</a>
+      <a href="#" class="link-3">3</a>
+      <a href="#" class="link-4">4</a>
+      <a href="#" class="link-5">5</a>
+      <a href="#" class="link-6">6</a>
+    </div>
+  </body>
 </html>
