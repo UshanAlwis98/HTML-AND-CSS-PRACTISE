@@ -100,6 +100,21 @@
         color: black;
         text-decoration: none;
       }
+
+      .dots {
+        position: relative;
+      }
+      .dot_one {
+        width: 5px; /* Set the width */
+        height: 5px; /* Set the height equal to width */
+        border: 1px solid black;
+        border-radius: 100%; /* Makes it a circle */
+        background-color: black;
+        display: inline-block; /* Prevents block-level expansion */
+        position: absolute;
+        bottom: 10px;
+        margin-left: 35px;
+      }
     </style>
   </head>
   <body>
@@ -127,6 +142,13 @@
       <a href="#" class="link-4">4</a>
       <a href="#" class="link-5">5</a>
       <a href="#" class="link-6">6</a>
+    </div>
+    <div>
+      <span class="dots">
+        <p class="dot_one">&nbsp;</p>
+        <p class="dot_two">&nbsp;</p>
+        <p class="dot_three">&nbsp;</p>
+      </span>
     </div>
   </body>
 </html>
