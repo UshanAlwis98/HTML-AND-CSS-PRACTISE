@@ -3,6 +3,28 @@ body {
 }
 header {
   height: 75vh;
-  background-image: url(img/hero.jpg);
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(img/hero.jpg);
   background-size: cover;
+}
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.Home_Page {
+  margin-left: 4px;
 }
