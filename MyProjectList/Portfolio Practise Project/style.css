@@ -65,3 +65,19 @@ a:active {
 .Home_Page {
   margin-left: 4px;
 }
+
+table {
+  width: fit-content;
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+
+thead th {
+}
+
+tbody {
+  text-align: center;
+}
+td {
+  width: 400px;
+}
