@@ -99,10 +99,23 @@ tbody tr:nth-child(3) {
 }
 
 .project-one {
-  background-image: url(img/Project01.png);
-  background-size: 330px;
-  background-repeat: no-repeat;
-  margin-left: 80px;
-  width: 400px;
   display: grid;
+  justify-items: center;
+  margin-left: 80px;
+  width: 500px;
+  display: grid;
+}
+
+.project-one p {
+  text-align: justify;
+}
+
+.project01-image {
+  max-width: 75%; /* Ensures it doesn't overflow */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.Tecnology-project-01 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
