@@ -1,6 +1,6 @@
 body {
   font-family: "Rubik", sans-serif;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 header {
   height: 75vh;
@@ -99,11 +99,15 @@ tbody tr:nth-child(3) {
 }
 
 .project-one {
+  background-color: bisque;
+  border: 2px solid black;
+  border-radius: 2%;
   display: grid;
   justify-items: center;
   margin-left: 80px;
   width: 500px;
   display: grid;
+  padding: 10px 30px;
 }
 
 .project-one p {
@@ -117,5 +121,5 @@ tbody tr:nth-child(3) {
 
 .Tecnology-project-01 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
