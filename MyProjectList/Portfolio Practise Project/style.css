@@ -97,3 +97,12 @@ tbody tr:nth-child(1) {
 tbody tr:nth-child(3) {
   background-color: #f1f3f5;
 }
+
+.project-one {
+  background-image: url(img/Project01.png);
+  background-size: 330px;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+  width: 400px;
+  display: grid;
+}
