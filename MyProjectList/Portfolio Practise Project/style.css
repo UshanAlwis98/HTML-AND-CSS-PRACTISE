@@ -1,3 +1,8 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+header {
+  height: 75vh;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+}
