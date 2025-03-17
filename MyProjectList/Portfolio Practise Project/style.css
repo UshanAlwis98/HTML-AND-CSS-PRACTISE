@@ -72,12 +72,28 @@ table {
   border-collapse: collapse;
 }
 
-thead th {
+thead {
+  background-color: #ffc9c9;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 tbody {
   text-align: center;
+  font-size: 24px;
 }
 td {
   width: 400px;
+}
+
+tr:nth-child(even) {
+  background-color: #adb5bd;
+}
+
+tbody tr:nth-child(1) {
+  background-color: #f1f3f5;
+}
+
+tbody tr:nth-child(3) {
+  background-color: #f1f3f5;
 }
