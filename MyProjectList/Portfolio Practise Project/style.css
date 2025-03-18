@@ -101,7 +101,7 @@ tbody tr:nth-child(3) {
 }
 
 .project-one {
-  background-color: bisque;
+  /* background-color: bisque; */
   border: 2px solid black;
   border-radius: 2%;
   display: grid;
@@ -110,6 +110,7 @@ tbody tr:nth-child(3) {
   width: 500px;
   display: grid;
   padding: 10px 30px;
+  box-shadow: 0 12px 64px rgba(0, 0, 0, 0.1);
 }
 
 .project-one p {
