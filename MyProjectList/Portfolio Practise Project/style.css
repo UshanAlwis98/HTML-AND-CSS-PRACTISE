@@ -120,6 +120,9 @@ tbody tr:nth-child(3) {
 }
 
 .Tecnology-project-01 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: bold;
+}
+
+.project-one h3 {
+  margin: 0;
 }
