@@ -1,5 +1,7 @@
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+
   /* background-color: antiquewhite; */
 }
 header {
@@ -140,5 +142,5 @@ tbody tr:nth-child(3) {
 
 .icon-set {
   display: flex;
-  gap: 50px;
+  gap: 100px;
 }
