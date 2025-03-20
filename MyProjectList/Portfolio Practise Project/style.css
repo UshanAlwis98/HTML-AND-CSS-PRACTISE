@@ -164,3 +164,8 @@ tbody tr:nth-child(3) {
   background-color: beige;
   padding: 10px 10px;
 }
+
+.image-testimonials-profile_one {
+  width: 800px;
+  height: auto;
+}
