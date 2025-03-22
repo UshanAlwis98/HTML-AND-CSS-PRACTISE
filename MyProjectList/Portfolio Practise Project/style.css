@@ -75,7 +75,7 @@ table {
 }
 
 thead {
-  background-color: #ffc9c9;
+  background-color: bisque;
   font-size: 32px;
   text-transform: uppercase;
 }
@@ -167,7 +167,7 @@ tbody tr:nth-child(3) {
 
 .Testimonials-box {
   box-shadow: 0 12px 64px rgba(0, 0, 0, 0.863);
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 10px 25px;
   display: flex;
   width: 800px;
@@ -235,4 +235,86 @@ tbody tr:nth-child(3) {
   right: 850px;
 
   transform: translate(50%, -50%);
+}
+.Testimonials-section h1 {
+  margin-top: 80px;
+  letter-spacing: 40px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  top: 375px;
+  transform: translate(-50%, -20%);
+}
+.dot-filled {
+  border: none;
+  background-color: grey;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.dot-one,
+.dot-two,
+.dot-three {
+  border: none;
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.Contact-section h3 {
+  letter-spacing: 40px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Contact-section {
+  padding-top: 8px;
+  padding-bottom: 30px;
+  width: 1600px;
+  /* background-color: #dee2e6; */
+  text-align: center;
+  margin: 80px auto;
+}
+
+/* .First-row-contact {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.Second-row-contact {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+} */
+
+.my-footer {
+  text-transform: uppercase;
+  background-color: black;
+  color: #dee2e6;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 28px;
+  letter-spacing: 5px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  height: 40px;
+  width: 250px;
+}
+
+form.contact-form table.contact-table {
+  background-color: lightblue;
 }
