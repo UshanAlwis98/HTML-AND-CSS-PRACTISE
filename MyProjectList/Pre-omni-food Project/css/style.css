@@ -57,13 +57,88 @@ body {
   padding: 4rem;
   max-width: 60rem; /*  If Default font size set:  60rem * 16px = 960px */
 }
-
 .hero-section {
-  padding-top: 4.8rem;
   background-color: rgb(254, 242, 233);
+}
+
+.hero-section-content {
+  display: flex;
+  gap: 200rem;
+}
+
+.hero-panel-eat-btn {
+  background-color: rgb(207, 113, 32);
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.hero-section-content {
+  display: flex;
+  gap: 15rem;
+}
+.hero-section-content-text-and-buttons {
+  padding-top: 10rem;
+  padding-left: 20rem;
+}
+.hero-img img {
+  max-width: 55rem;
+  height: auto;
+}
+
+.hero-section-btns {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-panel-learn-more-btn {
+  background-color: #fff;
+  color: black;
+  padding: 1.2rem 2.4rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-icon-learn-more-btn {
+  width: 18px;
+  height: 18px;
+}
+
+.hero-section h1 {
+  width: 800px;
+  font-family: "Rubik", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(51, 51, 51);
+  line-height: 55px;
+}
+
+.hero-section h4 {
+  width: 800px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(85, 85, 85);
+}
+.logo-and-navigation {
+  padding-top: 4.8rem;
+
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .logo {
   font-family: "Rubik", sans-serif;
@@ -85,7 +160,7 @@ body {
   gap: 4.8rem;
   transition: 0.3s;
   padding-right: 5rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .navigation-plane button {
@@ -98,6 +173,7 @@ body {
   font-style: normal;
   border: none;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .navigation-plane a:link,
