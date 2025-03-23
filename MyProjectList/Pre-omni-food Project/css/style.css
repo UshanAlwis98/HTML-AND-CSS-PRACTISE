@@ -81,7 +81,7 @@ body {
 
 .hero-section-content {
   display: flex;
-  gap: 15rem;
+  gap: 2px;
 }
 .hero-section-content-text-and-buttons {
   padding-top: 10rem;
