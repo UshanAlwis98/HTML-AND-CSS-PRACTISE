@@ -57,3 +57,69 @@ body {
   padding: 4rem;
   max-width: 60rem; /*  If Default font size set:  60rem * 16px = 960px */
 }
+
+.hero-section {
+  padding-top: 4.8rem;
+  background-color: rgb(254, 242, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 238);
+}
+
+.omni-logo {
+  height: 2.2rem;
+  padding-left: 5rem;
+  align-items: flex-start;
+}
+
+.navigation-plane {
+  display: flex;
+  gap: 4.8rem;
+  transition: 0.3s;
+  padding-right: 5rem;
+  align-items: center;
+}
+
+.navigation-plane button {
+  background-color: rgb(207, 113, 32);
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  border-radius: 9px;
+}
+
+.navigation-plane a:link,
+a:visited {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(85, 85, 85);
+  line-height: 9px;
+  text-decoration: none;
+}
+
+.navigation-plane a:hover,
+a:active {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(207, 113, 31);
+  line-height: 16px;
+  text-decoration: none;
+}
