@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/style.css" />
-    <title>Louisiana-Food-Project</title>
+    <title>Omni-Food-Project</title>
   </head>
   <body>
-    <section class="hero-section">
-      <div class="logo-and-navigation">
-        <div class="logo">
-          <img src="img/omnifood-logo.png" class="omni-logo" />
-        </div>
+    <header class="header">
+      <img class="logo" alt="Louisiana logo" src="img/omnifood-logo.png" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link">Section 1</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">Section 2</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">Section 3</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">Section 4</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link nav-cta">Section 5</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="navigation-plane">
-          <a href="#" target="_blank">How it works</a>
-          <a href="#" target="_blank">Meals</a>
-          <a href="#" target="_blank">Testimonials</a>
-          <a href="#" target="_blank">Pricing</a>
-          <button>Try for free</button>
-        </div>
-      </div>
-      <div class="hero-section-content">
-        <div class="hero-section-content-text-and-buttons">
-          <h1>
-            A healthy meal <br />
-            delivered to your door, <br />every single day
-          </h1>
-
-          <h4>
-            The smart 365-days-per-year food subscription that will<br />
-            make you eat healthy again. Tailored to your personal tastes <br />
-            and nutritional needs.
-          </h4>
-
-          <button class="hero-panel-eat-btn">Start eating well</button>
-          <button class="hero-panel-learn-more-btn">
-            Learn more
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="btn-icon-learn-more-btn"
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Start eating well</a
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-              />
-            </svg>
-          </button>
+            <a href="#" class="btn btn--outline">Learn More &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>250,000+</span> meals last year!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <img
+              src="img/hero.png"
+              class="hero-img"
+              alt="Woman enjoying food,meals in storage container, and food bowls on a table"
+            />
+          </div>
         </div>
-        <div class="hero-img">
-          <img src="img/hero.png" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
