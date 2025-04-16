@@ -1,0 +1,19 @@
+body {
+  padding: 0px;
+}
+
+.first-line {
+  font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15.5rem;
+}
+
+.second-line {
+  font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15.5rem;
+}
