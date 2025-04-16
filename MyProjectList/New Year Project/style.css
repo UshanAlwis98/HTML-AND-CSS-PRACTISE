@@ -1,14 +1,16 @@
 body {
   padding: 0px;
+  background-color: black;
 }
 
 .first-line {
-  margin-top: 150px;
+  margin-top: 40px;
+  margin-left: 25px;
   font-family: "Stick No Bills", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  font-size: 15.5rem;
+  font-size: 15rem;
 }
 
 .second-line {
@@ -21,5 +23,7 @@ body {
 }
 
 .whole-statement {
-  border: 2px dashed black;
+  border: 2px solid black;
+  margin-top: 200px;
+  background-color: rgb(212, 177, 20);
 }
