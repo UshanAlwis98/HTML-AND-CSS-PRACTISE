@@ -3,6 +3,7 @@ body {
 }
 
 .first-line {
+  margin-top: 150px;
   font-family: "Stick No Bills", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -16,4 +17,9 @@ body {
   font-weight: bold;
   font-style: normal;
   font-size: 15.5rem;
+  margin-left: 690px;
+}
+
+.whole-statement {
+  border: 2px dashed black;
 }
