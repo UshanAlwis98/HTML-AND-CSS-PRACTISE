@@ -11,7 +11,7 @@ body {
 .container {
   width: 800px;
 
-  border: 15px solid #5f3dc4;
+  /* border: 15px solid #5f3dc4; */
   padding: 10px;
   margin: 30px auto;
 }
@@ -29,7 +29,8 @@ body {
 }
 
 .Related-section {
-  border: 8px solid #7048e8;
+  border: 4px solid #7048e8;
+  border-radius: 2%;
   padding: 1.5em;
   font-family: "Goldman", sans-serif;
   font-weight: 400;
