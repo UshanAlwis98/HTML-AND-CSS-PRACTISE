@@ -4,16 +4,84 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 800px;
+
+  border: 15px solid #5f3dc4;
+  padding: 10px;
+  margin: 30px auto;
+}
+
+.main-header {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.coding-image {
+  width: 100%;
+}
+
+.Related-section {
+  border: 8px solid #7048e8;
+  padding: 1.5em;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.related-images {
+  width: 100px;
+  height: 100px;
+}
+
+header,
+article,
+aside,
+footer,
+ul,
+ol {
+  margin: 10px;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul,
 ol {
-  padding-left: 2em;
+  margin-left: 35px;
 }
 
-.socer-img {
-  width: 50%;
+header h2 {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 1.5em;
+}
+
+.profile-photo {
+  margin-bottom: 1.5em;
+}
+
+nav a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+footer {
+  font-weight: bold;
+  text-align: center;
 }
