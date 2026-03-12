@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+.socer-img {
+  width: 50%;
+}
