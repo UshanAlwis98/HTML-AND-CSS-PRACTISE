@@ -22,10 +22,18 @@ body {
   font-style: normal;
   text-align: center;
   margin: 1.5em 0;
+  background-color: rgb(182, 127, 255);
+  border-radius: 1ch;
+  border: 4px solid black;
+}
+
+.main-header h1 {
+  padding-top: 15px;
 }
 
 .coding-image {
   width: 100%;
+  margin: 20px;
 }
 
 .Related-section {
@@ -35,6 +43,7 @@ body {
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: azure;
 }
 
 .related-images {
@@ -59,6 +68,7 @@ p {
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: justify;
 }
 
 ul,
@@ -80,9 +90,14 @@ header h2 {
 nav a:link {
   color: blue;
   text-decoration: none;
+  margin: 20px;
 }
 
-footer {
+nav {
+  padding-bottom: 15px;
+}
+
+footer P {
   font-weight: bold;
   text-align: center;
 }
