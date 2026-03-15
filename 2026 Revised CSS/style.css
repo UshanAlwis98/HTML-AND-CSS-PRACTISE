@@ -4,7 +4,6 @@
 }
 
 body {
-  font-size: 18px;
   line-height: 1.5;
   position: relative;
 }
@@ -94,11 +93,11 @@ header h2 {
 nav a:link {
   color: blue;
   text-decoration: none;
-  margin: 20px;
+  margin: 10px;
 }
 
 nav {
-  padding-bottom: 15px;
+  padding-top: 28px;
 }
 
 footer P {
@@ -142,4 +141,10 @@ h2::after {
 
 .main-header nav {
   float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
