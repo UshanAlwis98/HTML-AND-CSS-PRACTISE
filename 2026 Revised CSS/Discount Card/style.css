@@ -13,15 +13,14 @@ body {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
-  padding: 15px;
 }
 
 .product-title {
-  height: 55px;
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 15px;
 }
 
 /* PRODUCT INFORMATION */
@@ -34,13 +33,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-}
-
-.price_shipping {
-  margin-bottom: 20px;
-}
-
-.shoe-tip {
   margin-bottom: 20px;
 }
 
@@ -58,6 +50,8 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .details-list {
@@ -65,21 +59,24 @@ body {
   margin-left: 20px;
 }
 
+.details-list li {
+  margin-bottom: 10px;
+}
+
 /* BUTTON */
 .add-cart {
-  width: 825px;
-  height: 55px;
   background-color: #000;
   border: none;
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
 }
 
 .add-cart:hover {
-  border-top: 4px solid black;
-  /* border-bottom: 2px solid black; */
   color: #000;
   background-color: #fff;
 }
