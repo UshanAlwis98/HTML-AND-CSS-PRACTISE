@@ -4,147 +4,60 @@
 }
 
 body {
-  line-height: 1.5;
-  position: relative;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .container {
-  width: 800px;
-
-  /* border: 15px solid #5f3dc4; */
-  padding: 10px;
-  margin: 30px auto;
+  width: 1200px;
+  margin: 20px auto;
+  border: 2px solid black;
 }
 
-.main-header {
-  font-family: "Goldman", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 87px;
+  text-transform: uppercase;
   text-align: center;
-  margin: 1.5em 0;
-  background-color: rgb(182, 127, 255);
-  border-radius: 1ch;
-  border: 4px solid black;
-  box-shadow: 0 12px 64px rgba(0, 0, 0, 0.8);
 }
 
-.main-header h1 {
-  padding-top: 15px;
-}
-
-.coding-image {
-  width: 100%;
-  margin: 20px;
-}
-
-.Related-section {
-  border: 4px solid #7048e8;
-  border-radius: 2%;
-  padding: 1.5em;
-  font-family: "Goldman", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: azure;
-  box-shadow: 0 12px 64px rgba(0, 0, 0, 0.8);
-}
-
-.related-images {
-  width: 100px;
+.btns {
   height: 100px;
+  width: 600px;
+  margin: 5px auto;
+
+  background-color: darkgray;
+  padding: 15px 1px;
+  border-radius: 0.5ch;
 }
 
-header,
-article,
-aside,
-footer,
-ul,
-ol {
-  margin: 10px;
-  font-family: "Goldman", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p {
-  margin-bottom: 1.5em;
-  font-family: "Goldman", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: justify;
-}
-
-ul,
-ol {
-  margin-left: 35px;
-}
-
-header h2 {
-  font-family: "Goldman", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  margin-bottom: 1.5em;
-}
-
-.profile-photo {
-  margin-bottom: 1.5em;
-  float: left;
-}
-
-nav a:link {
-  color: blue;
-  text-decoration: none;
-  margin: 10px;
-}
-
-nav {
-  padding-top: 28px;
-}
-
-footer P {
-  font-weight: bold;
-  text-align: center;
-}
-
-button {
-  font-size: 22px;
-  padding: 20px;
-  font-weight: 700;
-  cursor: pointer;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-}
-
-/* p::first-line {
-  color: rebeccapurple;
-} */
-h2 {
-  position: relative;
-}
-
-h2::after {
-  content: "TOP";
-  background-color: #ffe70e;
+.reg-btn,
+.login-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 25px;
   font-size: 20px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 3px 6px;
-
-  position: absolute;
-  top: -15px;
-  right: -25px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 0.5ch;
+  width: 150px;
 }
 
-.main-header h1 {
+.reg-btn {
   float: left;
 }
 
-.main-header nav {
+.login-btn {
   float: right;
 }
 
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: block;
+.disclamier {
+  background-color: greenyellow;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
