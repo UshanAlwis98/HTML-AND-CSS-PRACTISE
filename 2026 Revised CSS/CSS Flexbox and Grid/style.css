@@ -290,4 +290,7 @@ nav p {
 
 .related-author {
   margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
