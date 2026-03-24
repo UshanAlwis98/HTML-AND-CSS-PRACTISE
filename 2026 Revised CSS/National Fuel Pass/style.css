@@ -15,6 +15,15 @@ body {
   margin-bottom: 30px;
 }
 
+.head-sin {
+  font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  text-align: center;
+  font-size: 56px;
+}
+
 .head-ele {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -105,6 +114,28 @@ body {
   color: rgb(92, 92, 92);
 }
 
-ol.v {
-  list-style-type: none;
+.instructions h2 {
+  margin-bottom: 20px;
+}
+
+.red-markers {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+.red-markers li::before {
+  content: "✔ ";
+  color: red;
+}
+
+.vehicles-table {
+  border: 2px solid rgb(19, 18, 18);
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.vehicles-table th,
+.vehicles-table td {
+  border: 1px solid rgb(19, 18, 18);
+  padding: 8px 12px;
 }
