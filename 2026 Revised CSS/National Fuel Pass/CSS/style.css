@@ -11,8 +11,41 @@ body {
 .main-header {
   background-color: white;
   width: 100%;
-  height: 75px;
+  height: 60px;
   margin-bottom: 30px;
+  display: flex;
+  gap: 740px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 100px;
+  padding: 5px;
+}
+
+.language-btns {
+  display: flex;
+  gap: 10px;
+  margin-right: 75px;
+}
+
+.lang-btn-sinhala,
+.lang-btn-english,
+.lang-btn-tamil {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+
+  padding: 5px;
+  border: 2px solid rgb(19, 18, 18);
 }
 
 .head-sin {
@@ -138,4 +171,23 @@ body {
 .vehicles-table td {
   border: 1px solid rgb(19, 18, 18);
   padding: 8px 12px;
+}
+
+footer {
+  background-color: white;
+  padding: 5px;
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-logo-dialog,
+.footer-logo-MIT,
+.footer-logo-gov {
+  height: 30px;
 }

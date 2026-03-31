@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>National Fuel Pass - Register</title>
+    <link rel="stylesheet" href="CSS/register.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <img
+          src="img/Gov-Symbol.png"
+          alt="National Fuel Pass Logo"
+          class="logo"
+        />
+
+        <div class="language-btns">
+          <button class="lang-btn-sinhala">සිංහල</button>
+          <button class="lang-btn-tamil">தமிழ்</button>
+          <button class="lang-btn-english">English</button>
+        </div>
+      </div>
+    </header>
+
+    <article class="Registration-form">
+      <header>
+        <h1>Registration</h1>
+        <h3>Already have an account?</h3>
+        <a href="login.html">Login here</a>
+        <div>
+          <p>FAQs (Frequently Asked Questions)</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy Notice</p>
+        </div>
+      </header>
+
+      <main class="form-details">
+        <h2>Personal Information</h2>
+        <form action="#" method="post">
+          <label for="NIC-label">NIC Number</label>
+          <input type="text" id="NIC-txt-box" name="NIC" required />
+
+          <select name="doc-type">
+            <option>NIC</option>
+            <option>Passport</option>
+            <option>BRN</option>
+          </select>
+
+          <label for="mobile-label">Mobile Number</label>
+          <input type="text" id="mobile-txt-box" name="mobile" required />
+
+          <label for="OTP-label">OTP</label>
+          <input type="text" id="OTP-txt-box" name="OTP" required />
+
+          <button type="submit" class="send-otp-btn">Send OTP</button>
+          <button type="submit" class="verify-btn">Verify</button>
+
+          <label for="first-name-label">First Name</label>
+          <input
+            type="text"
+            id="first-name-txt-box"
+            name="first-name"
+            required
+          />
+
+          <label for="last-name-label">Last Name</label>
+          <input type="text" id="last-name-txt-box" name="last-name" required />
+
+          <label for="Address">Address</label>
+          <input type="text" id="Address-txt-box" name="Address" required />
+
+          <button type="submit" class="next-btn">Next</button>
+        </form>
+      </main>
+    </article>
+
+    <footer>
+      <div class="footer-images">
+        <img
+          src="img/Gov-Symbol.png"
+          alt="National Fuel Pass Logo"
+          class="footer-logo-gov"
+        />
+
+        <img
+          src="img/dialog.png"
+          alt="Dialog Logo"
+          class="footer-logo-dialog"
+        />
+        <img src="img/MIT_Symbol.png" alt="ICTA Logo" class="footer-logo-MIT" />
+      </div>
+    </footer>
+  </body>
+</html>
