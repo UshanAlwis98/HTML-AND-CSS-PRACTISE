@@ -6,6 +6,8 @@
 
 body {
   background-color: rgb(226, 225, 225);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .main-header {
@@ -17,6 +19,18 @@ body {
   gap: 740px;
   justify-content: center;
   align-items: center;
+}
+
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(19, 18, 18);
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -50,8 +64,38 @@ body {
 
 .Registration-form {
   background-color: white;
-  width: 60%;
-  margin: 100px auto;
+  width: 40%;
+  height: 700px;
+  margin: 63px auto;
+  padding: 20px;
+}
+
+.login-link {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(19, 18, 18);
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.tc {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(19, 18, 18);
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 footer {
@@ -71,4 +115,40 @@ footer {
 .footer-logo-MIT,
 .footer-logo-gov {
   height: 30px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+}
+
+.nic-label {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(19, 18, 18);
+  margin-bottom: 10px;
+}
+
+.txt-box {
+  height: 35px;
+}
+
+#NIC-txt-box {
+  width: 75%;
+}
+
+.doc-type {
+  height: 35px;
+  width: 22%;
+}
+
+#mobile-txt-box {
+  width: 50%;
+}
+
+#OTP-txt-box {
+  width: 50%;
 }
