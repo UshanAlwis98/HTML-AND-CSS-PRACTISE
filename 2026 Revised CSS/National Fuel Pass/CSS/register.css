@@ -68,6 +68,8 @@ header h1 {
   height: 700px;
   margin: 63px auto;
   padding: 20px;
+  border: 1px solid rgb(160, 157, 157);
+  border-radius: 0.5ch;
 }
 
 .login-link {
@@ -121,7 +123,7 @@ main h2 {
   margin-bottom: 20px;
 }
 
-.nic-label {
+.label {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -130,10 +132,26 @@ main h2 {
   text-align: left;
   color: rgb(19, 18, 18);
   margin-bottom: 10px;
+  display: inline-block;
+}
+
+.label-mobile,
+.label-OTP {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(19, 18, 18);
+  margin-bottom: 10px;
+  display: inline-block;
+  flex-basis: 50%;
 }
 
 .txt-box {
   height: 35px;
+  margin-bottom: 10px;
 }
 
 #NIC-txt-box {
@@ -145,10 +163,27 @@ main h2 {
   width: 22%;
 }
 
-#mobile-txt-box {
-  width: 50%;
+.mobile-txt-box {
+  display: inline-block;
+  flex-basis: 50%;
 }
 
-#OTP-txt-box {
-  width: 50%;
+.OTP-txt-box {
+  display: inline-block;
+  flex-basis: 50%;
+}
+
+.mobile-no-and-OTP {
+  display: flex;
+  gap: 2%;
+}
+
+.doc-type-and-doc-no {
+  display: flex;
+  gap: 2%;
+}
+
+.mobile-no-and-OTP-txt-boxes {
+  display: flex;
+  gap: 2%;
 }
